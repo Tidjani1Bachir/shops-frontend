@@ -1,0 +1,29 @@
+/* Make the export menu button highly visible */
+.apexcharts-menu {
+  background: #1f2937 !important; /* Dark background */
+  border: 1px solid #ec4899 !important;
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3) !important;
+  border-radius: 6px !important;
+}
+
+.apexcharts-menu-item {
+  color: #e5e7eb !important; /* Light text */
+  padding: 8px 16px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+.apexcharts-menu-item:hover {
+  background: #ec4899 !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
+/* Optional: Change the 3-dot menu icon color */
+.apexcharts-toolbar svg {
+  fill: #ec4899 !important;
+  stroke: #ec4899 !important;
+  width: 20px !important;
+  height: 20px !important;
+}
