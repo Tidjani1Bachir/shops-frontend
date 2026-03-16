@@ -45,8 +45,8 @@ Built with **Redux Toolkit + RTK Query** for state management, it implements a s
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@demo.com | 123456 |
-| User | user@demo.com | 123456 |
+| Admin | new@gmail.com | azerty |
+| User | user@demo.com | azerty |
 
 ---
 
