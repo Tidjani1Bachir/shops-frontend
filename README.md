@@ -38,7 +38,10 @@ Built with **Redux Toolkit + RTK Query** for state management, it implements a s
 
 ## 🚀 Live Demo
 
-👉 **[shopsphere.vercel.app](https://shopsphere.vercel.app)**
+👉 **[shopsphere.vercel.app](https://shops-frontend.vercel.app)**
+
+**Live Demo:** `https://shops-frontend.vercel.app`
+**Backend Repo:** `https://github.com/Tidjani1Bachir/shop-backend`
 
 | Role | Email | Password |
 |---|---|---|
