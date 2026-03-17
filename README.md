@@ -49,50 +49,55 @@ Built with **Redux Toolkit + RTK Query** for state management, it implements a s
 | Admin | new@gmail.com | azerty |
 | User | user@demo.com | azerty |
 
----
 ## 🗺 System Design
 
 ### Use Case Diagram
 > Illustrates all user interactions with the system.
 
-<img src="./docs/UseCaseDiagramEcommerce.png" style="background:white; padding:10px; border-radius:8px"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/UseCaseDiagramEcommerce-white.png">
+  <img alt="Use Case Diagram" src="./docs/UseCaseDiagramEcommerce.png">
+</picture>
 
 ---
 
 ### Class Diagram
 > Shows the data models and their relationships.
 
-<img src="./docs/ClassDiagramEcommerce.png" style="background:white; padding:10px; border-radius:8px"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/ClassDiagramEcommerce-white.png">
+  <img alt="Class Diagram" src="./docs/ClassDiagramEcommerce.png">
+</picture>
 
 ---
 
 ### Activity Diagram — Checkout Flow
 > Shows the step-by-step checkout process with all decision branches.
 
-<img src="./docs/ActivityDiagrammeCheckoutFlow.jpg" style="background:white; padding:10px; border-radius:8px"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/ActivityDiagrammeCheckoutFlow-white.jpg">
+  <img alt="Activity Diagram Checkout Flow" src="./docs/ActivityDiagrammeCheckoutFlow.jpg">
+</picture>
 
 ---
 
 ### Sequence Diagram — PayPal Payment Flow
 > Shows the communication between frontend, backend, PayPal SDK and MongoDB.
 
-<img src="./docs/sequenceDiagramPayPalPaymentFlow.png" style="background:white; padding:10px; border-radius:8px"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/sequenceDiagramPayPalPaymentFlow-white.png">
+  <img alt="Sequence Diagram PayPal Payment Flow" src="./docs/sequenceDiagramPayPalPaymentFlow.png">
+</picture>
 
 ---
 
 ### Favorites State Machine
 > Shows the hybrid localStorage and MongoDB favorites strategy.
 
-<img src="./docs/FavoritesStateMachineDiagramme.png" style="background:white; padding:10px; border-radius:8px"/>
-
----
-
-### Favorites State Machine
-> Shows the hybrid localStorage and MongoDB favorites strategy.
-
-![Favorites State Machine](./docs/FavoritesStateMachineDiagramme.png)
-
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/FavoritesStateMachineDiagramme-white.png">
+  <img alt="Favorites State Machine" src="./docs/FavoritesStateMachineDiagramme.png">
+</picture>
 
 
 ## ✨ Features
