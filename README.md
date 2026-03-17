@@ -16,6 +16,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+-[System Design](#-system-design)
 - [Live Demo](#-live-demo)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -49,6 +50,43 @@ Built with **Redux Toolkit + RTK Query** for state management, it implements a s
 | User | user@demo.com | 123456 |
 
 ---
+## 🗺 System Design
+
+### Use Case Diagram
+> Illustrates all user interactions with the system.
+
+![Use Case Diagram](./docs/UseCaseDiagramEcommerce.png)
+
+---
+
+### Class Diagram
+> Shows the data models and their relationships.
+
+![Class Diagram](./docs/ClassDiagramEcommerce.png)
+
+---
+
+### Activity Diagram — Checkout Flow
+> Shows the step-by-step checkout process with all decision branches.
+
+![Activity Diagram](./docs/ActivityDiagrammeCheckoutFlow.jpg)
+
+---
+
+### Sequence Diagram — PayPal Payment Flow
+> Shows the communication between frontend, backend, PayPal SDK and MongoDB.
+
+![Sequence Diagram](./docs/sequenceDiagramPayPalPaymentFlow.png)
+
+---
+
+### Favorites State Machine
+> Shows the hybrid localStorage and MongoDB favorites strategy.
+
+![Favorites State Machine](./docs/FavoritesStateMachineDiagramme.png)
+
+---
+
 
 ## ✨ Features
 
