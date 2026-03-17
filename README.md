@@ -54,50 +54,35 @@ Built with **Redux Toolkit + RTK Query** for state management, it implements a s
 ### Use Case Diagram
 > Illustrates all user interactions with the system.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/UseCaseDiagramEcommerce-white.png">
-  <img alt="Use Case Diagram" src="./docs/UseCaseDiagramEcommerce.png">
-</picture>
+![Use Case Diagram](./docs/useCaseDiagramme.jpg)
 
 ---
 
 ### Class Diagram
 > Shows the data models and their relationships.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/ClassDiagramEcommerce-white.png">
-  <img alt="Class Diagram" src="./docs/ClassDiagramEcommerce.png">
-</picture>
+![Class Diagram](./docs/ClassDiagramme.jpg)
 
 ---
 
 ### Activity Diagram — Checkout Flow
 > Shows the step-by-step checkout process with all decision branches.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/ActivityDiagrammeCheckoutFlow-white.jpg">
-  <img alt="Activity Diagram Checkout Flow" src="./docs/ActivityDiagrammeCheckoutFlow.jpg">
-</picture>
+![Activity Diagram](./docs/ActivityDiagrammeCheckout.jpg)
 
 ---
 
 ### Sequence Diagram — PayPal Payment Flow
 > Shows the communication between frontend, backend, PayPal SDK and MongoDB.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/sequenceDiagramPayPalPaymentFlow-white.png">
-  <img alt="Sequence Diagram PayPal Payment Flow" src="./docs/sequenceDiagramPayPalPaymentFlow.png">
-</picture>
+![Sequence Diagram](./docs/SequenceDiagramPayPalPaymentFlow.jpg)
 
 ---
 
 ### Favorites State Machine
 > Shows the hybrid localStorage and MongoDB favorites strategy.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/FavoritesStateMachineDiagramme-white.png">
-  <img alt="Favorites State Machine" src="./docs/FavoritesStateMachineDiagramme.png">
-</picture>
+![Favorites State Machine](./docs/FavoritesStateMachineDiagramme.jpg)
 
 
 ## ✨ Features
