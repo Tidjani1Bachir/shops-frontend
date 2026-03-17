@@ -54,28 +54,28 @@ Built with **Redux Toolkit + RTK Query** for state management, it implements a s
 ### Use Case Diagram
 > Illustrates all user interactions with the system.
 
-![Use Case Diagram](./docs/useCaseDiagramme.jpg)
+![Use Case Diagram](./docs/UseCaseDiagramEcom.jpg)
 
 ---
 
 ### Class Diagram
 > Shows the data models and their relationships.
 
-![Class Diagram](./docs/ClassDiagramme.jpg)
+![Class Diagram](./docs/ClassDiagramEcom.jpg)
 
 ---
 
 ### Activity Diagram — Checkout Flow
 > Shows the step-by-step checkout process with all decision branches.
 
-![Activity Diagram](./docs/ActivityDiagrammeCheckout.jpg)
+![Activity Diagram](./docs/ActivityDiagrammeCheckoutFlow.jpg)
 
 ---
 
 ### Sequence Diagram — PayPal Payment Flow
 > Shows the communication between frontend, backend, PayPal SDK and MongoDB.
 
-![Sequence Diagram](./docs/SequenceDiagramPayPalPaymentFlow.jpg)
+![Sequence Diagram](./docs/sequenceDiagramPayPalPaymentFlow.jpg)
 
 ---
 
