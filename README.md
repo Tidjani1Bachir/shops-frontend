@@ -61,7 +61,7 @@ Built with **Redux Toolkit + RTK Query** for state management, it implements a s
 ### Class Diagram
 > Shows the data models and their relationships.
 
-![Class Diagram](./docs/ClassDiagramEcom.jpg)
+![Class Diagram](./docs/ClassDiagramEcommerce.jpg)
 
 ---
 
