@@ -9,14 +9,14 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://developer.paypal.com/)
-[![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)](https://shopsphere.vercel.app)
+[![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)](https://shops-frontend.vercel.app)
 
 ---
 
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
--[System Design](#-system-design)
+- [System Design](#-system-design)
 - [Live Demo](#-live-demo)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -39,7 +39,7 @@ Built with **Redux Toolkit + RTK Query** for state management, it implements a s
 
 ## 🚀 Live Demo
 
-👉 **[shopsphere.vercel.app](https://shops-frontend.vercel.app)**
+👉 **[shops-frontend.vercel.app](https://shops-frontend.vercel.app)**
 
 **Live Demo:** `https://shops-frontend.vercel.app`
 **Backend Repo:** `https://github.com/Tidjani1Bachir/shop-backend`
@@ -164,14 +164,14 @@ navigate("/login?redirect=/shipping");
 
 ### Prerequisites
 - Node.js ≥ 18
-- Backend API running (see [Backend Repo](https://github.com/yourusername/shopsphere-backend))
+- Backend API running (see [Backend Repo](https://github.com/Tidjani1Bachir/shop-backend))
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/shopsphere-frontend.git
-cd shopsphere-frontend
+git clone https://github.com/Tidjani1Bachir/shops-frontend.git
+cd shops-frontend
 
 # Install dependencies
 npm install
@@ -200,7 +200,7 @@ VITE_API_URL=http://localhost:5000
 For production, set this to your deployed backend URL:
 
 ```env
-VITE_API_URL=https://shopsphere-backend.onrender.com
+VITE_API_URL=https://shop-backend-boik.onrender.com
 ```
 
 > ⚠️ All Vite environment variables must start with `VITE_` to be accessible in the browser.
@@ -210,7 +210,7 @@ VITE_API_URL=https://shopsphere-backend.onrender.com
 ## 📁 Project Structure
 
 ```
-shopsphere-frontend/
+shops-frontend/
 ├── src/
 │   ├── components/         # Reusable UI components
 │   │   ├── Header.jsx
@@ -269,7 +269,7 @@ Speed is the priority — localStorage updates are instantaneous with zero laten
 ## 🔗 Backend Repo
 
 The Node.js + Express API that powers this frontend:
-👉 [shopsphere-backend](https://github.com/yourusername/shopsphere-backend)
+👉 [shop-backend](https://github.com/Tidjani1Bachir/shop-backend)
 
 ---
 
