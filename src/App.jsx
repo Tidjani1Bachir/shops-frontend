@@ -2,8 +2,14 @@ import { Outlet } from "react-router-dom";
 import Navigation from "./pages/Auth/Navigation";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { useEffect } from "react";
+import { wakeUpBackend } from "./Utils/keepAlive.js";
+  
 const App = () => {
+  useEffect(() => {
+    wakeUpBackend();
+  }, []);
+
   return (
     <>
       <ToastContainer />
